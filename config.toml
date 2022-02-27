@@ -1,5 +1,5 @@
 baseURL = ""
-title = "semesta."
+title = "semesta"
 
 languageCode = "en-US"
 enableInlineShortcodes = true
@@ -7,8 +7,7 @@ pygmentsCodeFences = true
 pygmentsUseClasses = true
 
 [params]
-  description = "cerita tentang keanehan alam semesta"
-  copyright = "© 2022 mahasemesta"
+  description = "cerita tentang keanehan alam semesta"  
   dark = "auto"
   highlight = true
 

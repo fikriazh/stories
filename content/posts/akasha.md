@@ -1,7 +1,7 @@
 +++
-title = "dimensi"
-date = "2019-03-09"
-description = "lapisan sistem semesta"
+title = "akasha"
+date = "2022-02-25"
+description = "penyimpanan memori semesta"
 +++
 
 Lorem est tota propiore conpellat pectoribus de
