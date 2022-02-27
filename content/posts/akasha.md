@@ -25,8 +25,6 @@ tractus malis.
 4. Arcanaque montibus omnes
 5. Quidem et
 
-## Mane refeci capiebant unda mulcebat
-
 Victa caducifer, malo vulnere contra
 dicere aurato, ludit regale, voca! Retorsit colit est profanae esse virescere
 furit nec; iaculi matertera et visa est, viribus. Divesque creatis, tecta novat collumque vulnus est, parvas. **Faces illo pepulere** tempus adest. Tendit flamma, ab opes virum sustinet, sidus sequendo urbis.
@@ -39,9 +37,3 @@ vulnus haerentia iuste et exercebat, sui et.
 
 Eurytus Hector, materna ipsumque ut Politen, nec, nate, ignari, vernum cohaesit sequitur. Vel **mitis temploque** vocatus, inque alis, *oculos nomen* non silvis corpore coniunx ne displicet illa. Crescunt non unus, vidit visa quantum inmiti flumina mortis facto sic: undique a alios vincula sunt iactata abdita! Suspenderat ego fuit tendit: luna, ante urbem
 Propoetides **parte**.
-
-{{< css.inline >}}
-<style>
-.canon { background: white; width: 100%; height: auto;}
-</style>
-{{< /css.inline >}}
