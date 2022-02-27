@@ -1,7 +1,7 @@
 +++
-title = "akasha"
+title = "anunnaki"
 date = "2022-02-25"
-description = "penyimpanan memori semesta"
+description = "awal mula manusia"
 +++
 
 Lorem est tota propiore conpellat pectoribus de
@@ -10,7 +10,7 @@ subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc
 caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis
 lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.
 
-![Foto Akasha](Wallpaper.jpg "Foto akasha di candi gebang")
+![Foto Akasha](akasha.jpg "Foto akasha di candi gebang")
 
 1. Exierant elisi ambit vivere dedere
 2. Duce pollice
