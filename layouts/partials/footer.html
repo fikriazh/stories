@@ -1,5 +1,10 @@
 <footer id="footer">
 
-    &copy; mahasemesta
+    {{ if .IsHome }}
+    <a id="instagram" href="https://www.instagram.com/fikzhry" target="_blank">@fikzhry</a>
+    {{ else }}
+    let's talk in <a id="instagram" href="https://www.instagram.com/fikzhry" target="_blank">@fikzhry</a>
+    {{ end }}
+
 
 </footer>
