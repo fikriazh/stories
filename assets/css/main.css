@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
 
 @font-face {
     font-family: "Inter";
@@ -27,7 +27,9 @@ body {
 
 header#banner {
     margin-top: 25px;
-    margin-bottom: 0px;
+    margin-bottom: -35px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 1.5em;
 }
 
 header#banner a {
