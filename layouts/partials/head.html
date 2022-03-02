@@ -25,7 +25,7 @@
     {{ printf `<link rel="stylesheet" href="%s">` $css.RelPermalink | safeHTML }}
 
     {{ if .IsHome }}
-    <title>{{ .Title }}</title>
+    <title>{{ .Title }} : {{ .Description }}</title>
     {{ else }}
     <title>{{ .Site.Title}} : {{ .Title }}</title>
     {{ end }}
@@ -49,5 +49,5 @@
 
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     {{ end }}
-    
+
 </head>

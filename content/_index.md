@@ -1,4 +1,4 @@
 ---
-title: "semesta"
+title: "SEMESTA"
+description: "Dechiper the Universe"
 ---
-dechiper the universe

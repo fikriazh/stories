@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@1,300&display=swap');
 
 @font-face {
     font-family: "Inter";
@@ -11,10 +12,6 @@
 
 html {
     font-size: 62.5%;
-}
-
-title {
-    text-transform: uppercase;
 }
 
 body {
@@ -34,15 +31,22 @@ header#banner {
     margin-bottom: -15px;
     font-family: 'ZCOOL QingKe HuangYou', cursive;
     font-size: 1.5em;
+    text-transform: lowercase;    
 }
 
 header#banner a {
     color: #313a3d;
-    text-decoration: none;
+    text-decoration: none;    
 }
 
-header#banner a:hover {
-    text-decoration: underline;
+header#banner a:hover {    
+    background: transparent;
+    text-shadow:    0 0 10px #5c5ca2,
+                    0 0 25px #5c5ca2,
+                    0 0 50px #5c5ca2,
+                    0 0 100px #5c5ca2,
+                    0 0 200px #5c5ca2,
+                    0 0 500px #5c5ca2;
 }
 
 header#banner h2 {
@@ -122,6 +126,11 @@ main#content abbr {
 }
 
 /* index.html styles */
+
+li a {
+    text-transform: lowercase;
+}
+
 main#content ul#posts {
     list-style-type: none;
     font-size: 16px;
@@ -323,4 +332,9 @@ footer#footer {
 #lottie {
     display: inline-block;
     text-align:  center;    
+}
+
+li {
+    font-family: 'Averia Libre', cursive;
+    font-size: 1.1em;
 }
