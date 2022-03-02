@@ -1,4 +1,4 @@
-baseURL = "https://semesta.us.to/"
+baseURL = "http://semesta.us.to/"
 title = "SEMESTA"
 
 languageCode = "en-US"
