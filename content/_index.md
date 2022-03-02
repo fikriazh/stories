@@ -1,4 +1,4 @@
 ---
 title: "semesta"
 ---
-tentang semesta dan permainannya
+semesta dan permainannya

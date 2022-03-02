@@ -30,4 +30,14 @@
     <title>{{ .Site.Title}} : {{ .Title }}</title>
     {{ end }}
 
+    {{ if .IsHome }}
+    <style>
+        body { margin: 25% auto 0 auto; }
+
+        @media (min-width: 770px) {
+            body { margin: 12% auto 0 auto; }
+        }
+    </style>
+    {{ end }}
+
 </head>
