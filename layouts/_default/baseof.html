@@ -10,7 +10,9 @@
         </main>
         {{- partial "footer.html" . -}}
         
+        {{ if .IsHome }}
         <script type="text/javascript" src="scramble.js"></script>
+        {{ end }}
 
     </body>
 </html>
