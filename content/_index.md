@@ -1,4 +1,4 @@
 ---
 title: "semesta"
 ---
-semesta dan permainannya
+dechiper the universe

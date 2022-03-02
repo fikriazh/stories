@@ -30,14 +30,24 @@
     <title>{{ .Site.Title}} : {{ .Title }}</title>
     {{ end }}
 
+    <!-- Home Only Styling -->
     {{ if .IsHome }}
     <style>
-        body { margin: 25% auto 0 auto; }
+        header#banner {margin-top: -45px;}
+        main p {
+            font-family: 'ZCOOL QingKe HuangYou', cursive;
+            letter-spacing: .1em;
+            font-size: 1.4em;
+        }
+        body { margin: 23% auto 0 auto; }
 
         @media (min-width: 770px) {
-            body { margin: 12% auto 0 auto; }
+            header#banner {margin-top: -70px;}
+            body { margin: 10% auto 0 auto; }
         }
     </style>
-    {{ end }}
 
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    {{ end }}
+    
 </head>
