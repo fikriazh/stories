@@ -24,7 +24,7 @@ body {
 header#banner {
     margin-top: 30px;
     margin-bottom: -15px;
-    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-family: 'ZCOOL QingKe HuangYou', sans-serif;
     font-size: 1.5em;
     text-transform: lowercase;    
 }
@@ -60,6 +60,11 @@ header#banner nav ul li {
 
 header#banner nav ul li a {
     color: #454545;
+}
+
+article p {
+    font-size: 1.05em;
+    line-height: 1.45;
 }
 
 main#content a {
@@ -301,8 +306,7 @@ footer#footer {
     font-size: 1.4rem;
     font-weight: 400;
     color: #b3b3b3;
-    margin-top: 16px;
-    margin-bottom: 30px;
+    margin: 35px 0;
     font-family: 'ZCOOL QingKe HuangYou', cursive;
     font-size: 1.2em;
 }
@@ -320,10 +324,32 @@ footer#footer {
 }
 
 li {
-    font-family: 'Averia Libre', cursive;
+    font-family: 'Averia Libre', sans-serif;
     font-size: 1.1em;
 }
 
 li a {
     text-shadow: 0 0 10px #5c5ca2;
+}
+
+div#more {
+    font-size: 1.1em;
+    margin-top: 40px;
+    font-family: 'Averia Libre', cursive;
+}
+
+div#more a {
+    margin: 0 3px;
+}
+
+div#nav {
+    font-size: .9em;
+}
+
+div#nav a {
+    font-family: 'Averia Libre', cursive;
+}
+
+div#nav span {
+    margin:0 5px;
 }

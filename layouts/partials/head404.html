@@ -1,7 +1,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {{ with .Description -}}
+    {{ with .Site.Params.description -}}
     <meta name="description" content="{{ . }}">
     {{ end }}
     {{ printf `<link rel="shortcut icon" href="%s">` ("favicon.ico" | absURL) | safeHTML }}
@@ -24,13 +24,8 @@
     {{ $css := $resources | resources.Concat "css/style.css" | minify }}
     {{ printf `<link rel="stylesheet" href="%s">` $css.RelPermalink | safeHTML }}
 
-    {{ if .IsHome }}
-    <title>{{ .Title }} : {{ .Description }}</title>
-    {{ else }}
-    <title>{{ .Site.Title}} : {{ .Title }}</title>
-    {{ end }}
+    <title>Semesta : Are you Lost?</title>
 
-    <!-- Home Only Styling -->
-    {{- partial "home.html" . -}}
-
+    <meta http-equiv="refresh" content="5; url='/'" />
+    
 </head>

@@ -25,10 +25,15 @@
             }
         }
 
-    body {
+body {    
     width: 700px;
     line-height: 1.5;
     padding: 0;    
+}
+
+article p {
+    font-size: 1.2em;
+    line-height: 1.4;
 }
 
 header#banner {

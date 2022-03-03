@@ -8,4 +8,17 @@
     </header>
     {{- .Content -}}
 </article>
+
+<div id="more">
+    {{- range where site.RegularPages "Type" "in" site.Params.mainSections }}
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+    {{- end }}
+</div>
+
+<div id="nav">
+    <a href="#banner"> Go to Top  </a>
+    <span>|</span>
+    <a href="/">  Go to Home </a>
+</div>
+
 {{ end }}

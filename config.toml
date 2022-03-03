@@ -10,7 +10,6 @@ pygmentsUseClasses = true
   description = "dechiper the universe"  
   dark = "on"
   highlight = true
-  lottie = "private_files/lf30_4bkst7vs"
 
 [permalinks]
   posts = "/:title/"

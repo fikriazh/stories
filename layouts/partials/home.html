@@ -1,0 +1,32 @@
+{{ if .IsHome }}
+    <style>
+        header#banner {
+            margin-top: -45px;
+        }
+
+        main p {
+            font-family: 'ZCOOL QingKe HuangYou', cursive;
+            letter-spacing: .1em;
+            font-size: 1.4em;
+        }
+
+        body {
+            margin: 25% auto 0 auto;
+        }
+
+        footer#footer {
+            margin: 20px 0;
+        }
+
+        @media (min-width: 770px) {
+            header#banner {
+                margin-top: -70px;
+            }
+            body {
+                margin: 10% auto 0 auto;            
+            }
+        }
+    </style>
+
+    <script src="/lottie.js"></script>
+{{ end }}
