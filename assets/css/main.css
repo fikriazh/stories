@@ -34,16 +34,6 @@ header#banner a {
     text-decoration: none;    
 }
 
-header#banner a:hover {    
-    background: transparent;
-    text-shadow:    0 0 10px #5c5ca2,
-                    0 0 25px #5c5ca2,
-                    0 0 50px #5c5ca2,
-                    0 0 100px #5c5ca2,
-                    0 0 200px #5c5ca2,
-                    0 0 500px #5c5ca2;
-}
-
 header#banner h2 {
     display: inline;
     font-size: 21px;

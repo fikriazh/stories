@@ -7,7 +7,7 @@ pygmentsCodeFences = true
 pygmentsUseClasses = true
 
 [params]
-  description = "cerita tentang keanehan alam semesta"  
+  description = "dechiper the universe"  
   dark = "on"
   highlight = true
   lottie = "private_files/lf30_4bkst7vs"
