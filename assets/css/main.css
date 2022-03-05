@@ -353,3 +353,8 @@ div#nav a {
 div#nav span {
     margin:0 5px;
 }
+
+canvas.webgl {
+    opacity: ready ? 1 : 0;
+    margin-bottom: 20px;
+}

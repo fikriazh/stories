@@ -1,7 +1,12 @@
 {{ if .IsHome }}
-<div id="lottie">
+<!-- <div id="lottie">
 <lottie-player src="/hacker.json"  background="transparent"  speed="1"  style="width: 100px; height: 100px;"  loop autoplay></lottie-player>
-</div>
+</div> -->
+
+{{- partial "3d.html" . -}}
+
+<canvas class="webgl"></canvas>
+
 {{ end }}
 
 <header id="banner">
